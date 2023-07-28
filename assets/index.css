@@ -1,0 +1,255 @@
+.admin-cover {
+    height: 100vh;
+}
+.admin-cover-flex {
+    width: 100%;
+    height: 100%;
+}
+.admin-cover-item {
+    height: 100%;
+}
+.admin-cover-header-flex {
+    width: 100%;
+    height: 10%;
+}
+.admin-cover-header-item {
+
+}
+.admin-content-cover-flex {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+.admin-content-cover-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.admin-content-cover {
+    width: 100%;
+    height: 60%;
+}
+.admin-content-header-flex {
+
+}
+.admin-content-header-item {
+
+}
+.content-header-flex {
+
+}
+.content-header-item {
+
+}
+.header-link {
+
+}
+
+.task-tab-content {
+    width: 100%;
+    height: 100%;
+}
+.admin-content-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.admin-content-item {
+    width: 100%;
+}
+.view-task-cover-flex {
+    width: 100%;
+}
+.view-task-cover-item {
+    width: 100%;
+}
+.view-task-table {
+    width: 100% !important;
+}
+.view-task-tr-head {
+
+}
+.view-task-th {
+    text-align: center;
+}
+.view-task-tr-body {
+    background-color: rgb(240, 240, 240);
+}
+.view-task-form {
+
+}
+.view-task-td {
+    vertical-align: middle !important;
+    padding-right: 0px !important;
+    text-align: center;
+}
+.task-input {
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.action-cover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.action-cover-flex {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between
+}
+.action-cover-item {
+    width: 48%;
+}
+.action-btn {
+    width: 100%;
+    padding: 5px;
+}
+
+/* create task style */
+.create-task-cover-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.create-task-cover-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.create-task-cover {
+    width: 70%;
+    height: 50%;
+    border: 1px solid lightgrey;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 40px;
+}
+.create-task-form {
+
+}
+.create-task-cover .input-cover-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.create-task-cover .input-cover-flex:first-child {
+    padding-bottom: 30px;
+}
+.create-task-cover .input-cover-flex:last-child {
+    padding-top: 30px;
+}
+.create-task-cover .input-cover-item:first-child {
+    width: 20%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+.create-task-cover .input-cover-item:last-child {
+    width: 80%;
+}
+.create-task-cover .input-cover-item .input-label {
+    margin-block-end: 0rem;
+}
+.create-task-cover .input-cover-item .task-input {
+    width: 90%;
+    border: none;
+    height: 45px;
+}
+.create-btn-cover-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.create-btn-cover-item:first-child {
+    width: 20%;
+}
+.create-btn-cover-item:last-child {
+    width: 80%;
+}
+.task-submit-btn {
+    width: 90%;
+}
+
+/* style for modals */
+.edit-modal-content {
+
+}
+.edit-modal-header {
+    width: 100%;
+}
+.edit-modal-title {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.edit-modal-body {
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.edit-form-cover-flex {
+    width: 100%;
+}
+.edit-form-cover-item {
+    width: 100%;
+}
+.edit-input-cover-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.edit-input-cover-item {
+    width: 70%;
+}
+.edit-input-cover-item .input-cover-flex {
+    width: 100%;
+}
+.edit-input-cover-item .input-cover-flex .input-cover-item {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.edit-input-cover-item .input-cover-flex .input-cover-item .edit-label {
+    width: 100%;
+    text-align: left;
+}
+.edit-input-cover-item .input-cover-flex .input-cover-item .task-input {
+    width: 100%;
+    height: 35px;
+    border: none;
+}
+.modal-btn-cover-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.modal-btn-cover-item {
+    width: 100%;
+}
+.save-btn {
+    width: 100%;
+    height: 35px;
+}
