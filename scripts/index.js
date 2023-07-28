@@ -13,7 +13,7 @@ $(document).ready(function(e) {
         inputs.name = taskName;
         inputs.desc = taskDesc;
 
-        fetch('http://127.0.0.1:8000/api/v1/task', {
+        fetch('http://3.128.255.132/:8000/api/v1/task', {
             method: "POST",
             body: JSON.stringify(inputs),
             headers: {
@@ -29,7 +29,7 @@ $(document).ready(function(e) {
 // function to fetch all data from the api
 function loadTasks() {
 
-    fetch("http://127.0.0.1:8000/api/v1/tasks", {
+    fetch('http://3.128.255.132/:8000/api/v1/tasks', {
         method: "GET",
         headers: {
             "Content-Type": "application/json"
@@ -63,7 +63,7 @@ function loadTasks() {
                     inputs.desc = taskDesc;
 
                     
-                    fetch(`http://127.0.0.1:8000/api/v1/task/${taskId}`, {
+                    fetch(`http://3.128.255.132/:8000/api/v1/task/${taskId}`, {
                         method: "PUT",
                         body: JSON.stringify(inputs),
                         headers: {
@@ -84,7 +84,7 @@ function loadTasks() {
                     var taskId = parseInt(task_id.value);
 
                     
-                    fetch(`http://127.0.0.1:8000/api/v1/task/${taskId}`, {
+                    fetch(`http://3.128.255.132/:8000/api/v1/task/${taskId}`, {
                         method: "DELETE",
                         headers: {
                             "Content-Type": "application/json"
